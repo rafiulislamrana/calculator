@@ -9,42 +9,46 @@
 </head>
 <body>
     <h1>Calculator</h1>
-    <div class="clc">
-        <div class="clc_head">
-            <input type="text" id="scr" maxlength="12">
+    <form name="forms">
+        <div class="clc">
+            <div class="clc_head">
+                <input type="text" id="scr" maxlength="12">
+            </div>
+            <div class="clc_body">
+                <div class="fst_row">
+                    <input type="button" value="C" class="btn" id="clear">
+                    <input type="button" value="+/-" class="btn" id="#">
+                    <input type="button" value="%" class="btn" id="parcent">
+                    <input type="button" value="/" class="btn" id="division">
+                </div>
+                <div class="snd_row">
+                    <input type="button" value="7" class="btn" id="seven">
+                    <input type="button" value="8" class="btn" id="eight">
+                    <input type="button" value="9" class="btn" id="nine">
+                    <input type="button" value="*" class="btn" id="multiply">
+                </div>
+                <div class="trd_row">
+                    <input type="button" value="4" class="btn" id="four">
+                    <input type="button" value="5" class="btn" id="five">
+                    <input type="button" value="6" class="btn" id="six">
+                    <input type="button" value="-" class="btn" id="minus">
+                </div>
+                <div class="foth_row">
+                    <input type="button" value="1" class="btn" id="one">
+                    <input type="button" value="2" class="btn" id="two">
+                    <input type="button" value="3" class="btn" id="three">
+                    <input type="button" value="+" class="btn" id="addition">
+                </div>
+                <div class="fith_row">
+                    <input type="button" value="0" class="btn" id="zero">
+                    <input type="button" value="." class="btn" id="decimal">
+                    <input type="button" value="DEL" class="btn" id="del">
+                    <input type="button" value="=" class="btn" style="background-color: royalblue;" id="equal">
+                </div>
+            </div>
         </div>
-        <div class="clc_body">
-            <div class="fst_row">
-                <input type="button" value="C" class="btn">
-                <input type="button" value="+/-" class="btn">
-                <input type="button" value="%" class="btn">
-                <input type="button" value="/" class="btn">
-            </div>
-            <div class="snd_row">
-                <input type="button" value="7" class="btn">
-                <input type="button" value="8" class="btn">
-                <input type="button" value="9" class="btn">
-                <input type="button" value="*" class="btn">
-            </div>
-            <div class="trd_row">
-                <input type="button" value="4" class="btn">
-                <input type="button" value="5" class="btn">
-                <input type="button" value="6" class="btn">
-                <input type="button" value="-" class="btn">
-            </div>
-            <div class="foth_row">
-                <input type="button" value="1" class="btn">
-                <input type="button" value="2" class="btn">
-                <input type="button" value="3" class="btn">
-                <input type="button" value="+" class="btn">
-            </div>
-            <div class="fith_row">
-                <input type="button" value="0" class="btn">
-                <input type="button" value="." class="btn">
-                <input type="button" value="DEL" class="btn">
-                <input type="button" value="=" class="btn" style="background-color: royalblue;">
-            </div>
-        </div>
-    </div>
+    </form>
+    <!-- Thanks you -->
+    <script src="main.js"></script>
 </body>
 </html>
